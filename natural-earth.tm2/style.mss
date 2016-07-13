@@ -85,13 +85,6 @@ Map {
 @mix_col: #fff;
 @mix_amt: 15;
 #country_fill {
-  [color=1] { polygon-fill: mix(#D19C44,@mix_col,@mix_amt); }
-  [color=2] { polygon-fill: mix(#99AF4D,@mix_col,@mix_amt); }
-  [color=3] { polygon-fill: mix(#5AB87B,@mix_col,@mix_amt); } 
-  [color=4] { polygon-fill: mix(#2CB8B2,@mix_col,@mix_amt); }
-  [color=5] { polygon-fill: mix(#BB99CF,@mix_col,@mix_amt); } 
-  [color=6] { polygon-fill: mix(#EE85A7,@mix_col,@mix_amt); } 
-  [color=7] { polygon-fill: mix(#F78571,@mix_col,@mix_amt); }
   ::band[zoom>=1] {
     comp-op: overlay;
     line-color: #000;
