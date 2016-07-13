@@ -22,7 +22,7 @@ minzoom: 0
 name: Natural Earth
 scale: 1
 # source: "mapbox:///aj.e37dspde"
-source: "tmsource://./natural-earth-tm2/natural-earth.tm2source"
+source: "tmsource://./natural-earth.tm2source"
 styles: 
   - style.mss
   - labels.mss

@@ -21,7 +21,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -38,7 +38,7 @@
   WHERE z(!scale_denominator!) >= 5 AND geom && !bbox!
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -51,7 +51,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -64,7 +64,7 @@
   WHERE z(!scale_denominator!) >= 5 AND geom && !bbox!
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -77,7 +77,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -92,7 +92,7 @@
     AND scalerank-1 <= z(!scale_denominator!)
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -105,7 +105,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -134,7 +134,7 @@
     AND scalerank-1 <= z(!scale_denominator!)
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -147,7 +147,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -170,7 +170,7 @@
   WHERE z(!scale_denominator!) >= 5 AND geom && !bbox!
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -183,7 +183,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -195,7 +195,7 @@
     WHEN z(!scale_denominator!) >= 7 THEN TRUE END
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -208,7 +208,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -220,7 +220,7 @@
     WHEN z(!scale_denominator!) >= 7 THEN TRUE END
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -233,7 +233,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -255,7 +255,7 @@
   WHERE z(!scale_denominator!) >= 5 AND geom && !bbox!
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -268,7 +268,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -281,7 +281,7 @@
   WHERE z(!scale_denominator!) >= 5 AND geom && !bbox!
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -294,7 +294,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -326,7 +326,7 @@
   WHERE z(!scale_denominator!) >= 5 AND geom && !bbox!
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -339,7 +339,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -351,7 +351,7 @@
   ORDER BY scalerank
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -364,7 +364,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -379,7 +379,7 @@
     END
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -392,7 +392,7 @@
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[]]></Parameter>
        <Parameter name="geometry_table"><![CDATA[]]></Parameter>
-       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="host"><![CDATA[wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
@@ -410,7 +410,7 @@
   ORDER BY scalerank ASC, pop_max DESC
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[postgres]]></Parameter>
+       <Parameter name="user"><![CDATA[wmatiles]]></Parameter>
     </Datasource>
   </Layer>
 

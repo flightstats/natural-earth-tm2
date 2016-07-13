@@ -7,8 +7,8 @@ set -eu
 
 # Database connection settings - edit as needed:
 dbname=natural_earth
-dbuser=postgres
-dbhost=localhost
+dbuser=wmatiles
+dbhost=wma-tileserver-staging.cfhdfaiy0xqg.us-east-1.rds.amazonaws.com
 dbport=5432
 
 psql="psql -q -h $dbhost -p $dbport -U $dbuser"

@@ -10,7 +10,7 @@
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[Natural Earth]]></Parameter>
-  <Parameter name="source"><![CDATA[mapbox:///aj.5g3orq99]]></Parameter>
+  <Parameter name="source"><![CDATA[tmsource://./natural-earth.tm2source]]></Parameter>
 </Parameters>
 
 
